@@ -21,7 +21,7 @@ After run the cell to read the files and write into .csv file, a "enron_emails.c
 
 ### To upload or reload the code into github
 
-Only upload the code **DO NOT UPLOAD THE DATABASE AND .CSV FILE**
+**Only upload the code DO NOT UPLOAD THE DATABASE AND .CSV FILE**
 
 To fetch the updates from others, you can use pull to get updates.
 
