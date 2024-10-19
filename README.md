@@ -21,13 +21,19 @@ After run the cell to read the files and write into .csv file, a "enron_emails.c
 
 **_Move both your .csv file and database folder to parent folder_**
 
+### Data Preprocessing
+
+After data cleaning and preprocessing, it will generate a new csv file called "enron_emails_cleaned.csv", both ML_NLP_classification and Sentiment Analysis have to first import this cleaned enron email datasets into code then proceeded to next procedure.
+
+### File Structure:
+
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/3ab1d701-c7d5-4eaf-b683-f60643d90d53">
+
 ### To upload or reload the code into github
 
 **Only upload the code DO NOT UPLOAD THE DATABASE AND .CSV FILE**
 
 To fetch the updates from others, you can use pull to get updates.
-
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/3ab1d701-c7d5-4eaf-b683-f60643d90d53">
 
 enron-processing-and-nlp: https://www.kaggle.com/code/ramyheshmat/enron-processing-and-nlp
 
