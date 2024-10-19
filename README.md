@@ -37,4 +37,6 @@ enron email classification using machine learning: https://www.kaggle.com/code/a
 
 email-sentiment-analysis: https://www.kaggle.com/code/hardikjain10/email-sentiment-analysis/notebook
 
+Enron: Predicting the e-mail sender (10 classes): https://www.kaggle.com/code/mateuszbagiski/enron-predicting-the-e-mail-sender-10-classes
+
 email-spam-detection: https://www.kaggle.com/code/zabihullah18/email-spam-detection
