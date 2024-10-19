@@ -29,8 +29,12 @@ To fetch the updates from others, you can use pull to get updates.
 
 enron-processing-and-nlp: https://www.kaggle.com/code/ramyheshmat/enron-processing-and-nlp
 
-email-sentiment-analysis: https://www.kaggle.com/code/hardikjain10/email-sentiment-analysis/notebook
+data-cleaning-enron-email-dataset: https://www.kaggle.com/code/ankur561999/data-cleaning-enron-email-dataset
 
 enron email classification using LSTM: https://www.kaggle.com/code/ankur561999/enron-email-classification-using-lstm
+
+enron email classification using machine learning: https://www.kaggle.com/code/ankur561999/enron-email-classification-using-machine-learning
+
+email-sentiment-analysis: https://www.kaggle.com/code/hardikjain10/email-sentiment-analysis/notebook
 
 email-spam-detection: https://www.kaggle.com/code/zabihullah18/email-spam-detection
