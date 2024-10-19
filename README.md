@@ -27,8 +27,10 @@ After run the cell to read the files and write into .csv file, a "enron_emails.c
 
 To fetch the updates from others, you can use pull to get updates.
 
-https://www.kaggle.com/code/ramyheshmat/enron-processing-and-nlp
+enron-processing-and-nlp: https://www.kaggle.com/code/ramyheshmat/enron-processing-and-nlp
 
-https://www.kaggle.com/code/hardikjain10/email-sentiment-analysis/notebook
+email-sentiment-analysis: https://www.kaggle.com/code/hardikjain10/email-sentiment-analysis/notebook
 
-https://www.kaggle.com/code/zabihullah18/email-spam-detection
+enron email classification using LSTM: https://www.kaggle.com/code/ankur561999/enron-email-classification-using-lstm
+
+email-spam-detection: https://www.kaggle.com/code/zabihullah18/email-spam-detection
