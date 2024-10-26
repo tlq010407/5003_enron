@@ -2,8 +2,23 @@
 
 ### Database download
 
-In order to download the database, run the first cell in jupter notebook, the database will download and unzip automatically.
-
+In order to download the database, run the first cell in jupter notebook, the database will download
+```python
+import requests
+url = "https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tar.gz"
+filename = "../enron_mail_20150507.tar.gz"
+with open(filename, "wb") as f:
+    r = requests.get(url)
+    f.write(r.content)
+```
+and unzip automatically.
+```python
+print("Unzipping Enron dataset (This may take a while)")
+import tarfile
+tfile = tarfile.open("../enron_mail_20150507.tar.gz")
+tfile.extractall(".")
+tfile.close()
+```
 After downloading the database, it will show "You're ready to go!", which named "maildir".
 
 You can make this cell to command after you download the database successfully.
