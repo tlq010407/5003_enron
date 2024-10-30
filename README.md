@@ -40,26 +40,13 @@ After run the cell to read the files and write into .csv file, a "enron_emails.c
 
 After data cleaning and preprocessing, it will generate a new csv file called "enron_emails_cleaned.csv", both ML_NLP_classification and Sentiment Analysis have to first import this cleaned enron email datasets into code then proceeded to next procedure.
 
+### Data Visualization 
+
+All Graphs are saved in ***Graphs for Data Visualization*** file as part of results of our project, for easy arranging. 
+
 ### File Structure:
 
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/3ab1d701-c7d5-4eaf-b683-f60643d90d53">
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/b70d879b-1e89-4a57-a8a7-d2daa7873403">
 
-### To upload or reload the code into github
 
-**Only upload the code DO NOT UPLOAD THE DATABASE AND .CSV FILE**
 
-To fetch the updates from others, you can use pull to get updates.
-
-enron-processing-and-nlp: https://www.kaggle.com/code/ramyheshmat/enron-processing-and-nlp
-
-data-cleaning-enron-email-dataset: https://www.kaggle.com/code/ankur561999/data-cleaning-enron-email-dataset
-
-enron email classification using LSTM: https://www.kaggle.com/code/ankur561999/enron-email-classification-using-lstm
-
-enron email classification using machine learning: https://www.kaggle.com/code/ankur561999/enron-email-classification-using-machine-learning
-
-email-sentiment-analysis: https://www.kaggle.com/code/hardikjain10/email-sentiment-analysis/notebook
-
-Enron: Predicting the e-mail sender (10 classes): https://www.kaggle.com/code/mateuszbagiski/enron-predicting-the-e-mail-sender-10-classes
-
-email-spam-detection: https://www.kaggle.com/code/zabihullah18/email-spam-detection
