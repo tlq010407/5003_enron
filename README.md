@@ -43,6 +43,28 @@ After run the cell to read the files and write into .csv file, a "enron_emails.c
 
 After data cleaning and preprocessing, it will generate a new csv file called "enron_emails_cleaned.csv", both ML_NLP_classification and Sentiment Analysis have to first import this cleaned enron email datasets into code then proceeded to next procedure.
 
+#### ML_NLP_Classification
+
+1. Data Import and Sorting: 
+
+The code uses pandas and numpy to handle the data. Initially, it reads the data from a CSV file and then sorts it by the sender (From), receiver (To), and date (Date). This sorting is necessary for calculating the time intervals between consecutive emails from the same sender to the same receiver.
+2. Feature Engineering:
+
+Time Interval Calculation: It calculates the time difference between consecutive emails from the same sender to the same receiver using groupby(['From', 'To'])['Date'].diff().dt.total_seconds(). This value is stored in seconds.
+Email Content Size: The length of the email content is calculated and used as a feature representing email size.
+Subject Length: The code also computes the length of each email’s subject line to add as a feature.
+3. Saving the Enriched Data: 
+
+The enriched DataFrame, which now includes features like time interval, email size, and subject length, is saved to a new CSV file, ../enriched_emails.csv. This file allows for further analysis with additional email characteristics.
+4. Anomaly Detection: 
+
+Clustering-Based Detection: By calculating the distance of each data point to its assigned cluster centroid, the code identifies points that exceed a threshold (based on the mean and standard deviation of distances) and marks them as anomalies.
+Isolation Forest: Using the IsolationForest model, the enriched data is further analyzed. The model flags anomalies as 1 and normal points as 0. These anomalies are filtered and saved to another CSV file, ../anomalies_isolation_forest.csv, for review.
+5. Visualizing Anomaly Detection Results:
+
+The matplotlib library is used to visualize normal and anomalous data points. It plots the clustering centroids along with normal (blue) and anomalous (red) points, helping to illustrate the distribution and distinction between normal and anomalous points.
+
+
 ## Data Visualization 
 
 All Graphs are saved in ***Graphs for Data Visualization*** file as part of results of our project, for easy arranging. 
