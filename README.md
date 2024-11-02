@@ -64,8 +64,8 @@ The enriched DataFrame, which now includes features like time interval, email si
 All Graphs are saved in ***Graphs for Data Visualization*** file as part of results of our project, for easy arranging. 
 
 ## File Structure:
+<img width="354" alt="image" src="https://github.com/user-attachments/assets/30427d38-c589-4f83-8289-a94833818c63">
 
-<img width="350" alt="image" src="https://github.com/user-attachments/assets/b70d879b-1e89-4a57-a8a7-d2daa7873403">
 
 
 
